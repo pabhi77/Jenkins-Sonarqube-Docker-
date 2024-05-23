@@ -1,18 +1,6 @@
 CI/CD Demonstration with Jenkins, SonarQube, and Docker
 This repository contains a demonstration of a CI/CD pipeline using Jenkins, SonarQube, Docker, and an HTML-based to-do list application. The CI/CD pipeline is set up on AWS EC2 instances.
 
-Table of Contents
-Introduction
-Architecture
-Setup Instructions
-Prerequisites
-EC2 Instances Setup
-Jenkins Setup
-SonarQube Setup
-Docker Setup
-Pipeline Workflow
-Conclusion
-Introduction
 This project demonstrates a CI/CD pipeline that automates the process of building, testing, and deploying a simple to-do list web application. The pipeline utilizes:
 
 Jenkins: for continuous integration and continuous deployment.
@@ -24,8 +12,9 @@ The architecture involves the following EC2 instances:
 Jenkins Server: Manages the CI/CD pipeline.
 SonarQube Server: Performs static code analysis.
 Docker Host: Runs the Docker containers for the application.
+
 Setup Instructions
-Prerequisites
+Prerequisites:
 AWS account with permissions to create EC2 instances.
 Basic knowledge of Jenkins, SonarQube, Docker, and SSH.
 EC2 Instances Setup
